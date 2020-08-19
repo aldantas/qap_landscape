@@ -1,4 +1,4 @@
-/* QAP-feature extractor - generate a sample of solutions and compute FLA measures */
+/* QAP-landscape - generate a sample of solutions and compute FLA measures */
 /* Copyright (C) 2019  Augusto Lopez Dantas */
 
 /* This program is free software; you can redistribute it and/or */

@@ -1,5 +1,5 @@
-# qap_landscape
-This repo contains the source code that extracts the Fitness Landsace measures used for characterizing QAP instances in the paper ["On the use of fitness landscape features in meta-learning based algorithm selection for the quadratic assignment problem"](https://www.sciencedirect.com/science/article/pii/S0304397519306693)
+# QAP\_landscape
+This repo contains the source code that extracts the Fitness Landscape measures used for characterizing QAP instances in the paper ["On the use of fitness landscape features in meta-learning based algorithm selection for the quadratic assignment problem"](https://www.sciencedirect.com/science/article/pii/S0304397519306693)
 
 The sampling is performed by the [Metropolis-Hasting aglorithm](https://link.springer.com/chapter/10.1007/978-3-540-24855-2_76), followed by a best improvement local search on each solution with the swap operator.
 
