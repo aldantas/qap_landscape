@@ -1,5 +1,7 @@
 /*****************************************************************/
-// Adapted from the BLS source code.
+// Adapted from the BLS source code from:
+// "Breakout local search for the quadratic assignment problem",
+// Applied Mathematics and Computation 219(9), 2013, 4800-4815.
 //
 // Copyright : Una Benlic, 2012
 // This code can be freely used for non-commercial purpose.
