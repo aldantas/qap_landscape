@@ -1,0 +1,155 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+AEP_INCLUDED	acumulated_escape_probability.hpp	/^#define AEP_INCLUDED$/;"	d
+BEST_IMPROB_INCLUDED	best_improv.hpp	/^#define BEST_IMPROB_INCLUDED /;"	d
+COMMON_INCLUDED	common.hpp	/^#define COMMON_INCLUDED$/;"	d
+FDC_INCLUDED	fitness_distance_correlation.hpp	/^#define FDC_INCLUDED$/;"	d
+NSC_INCLUDED	negative_slope_coefficient.hpp	/^#define NSC_INCLUDED$/;"	d
+PRINTER_INCLUDED	printer.hpp	/^#define PRINTER_INCLUDED /;"	d
+READER_INCLUDED	reader.hpp	/^#define READER_INCLUDED /;"	d
+WRITER_INCLUDED	writer.hpp	/^#define WRITER_INCLUDED /;"	d
+accept_probability	metropolis_hastings.cpp	/^double accept_probability(long current_cost, long candidate_cost)$/;"	f	typeref:typename:double
+acumulated_escape_probability	features_extractor.cpp	/^	double acumulated_escape_probability;$/;"	m	struct:features_struct	typeref:typename:double	file:
+add_value_to_stat	common.cpp	/^void add_value_to_stat(type_stats &stat, long value)$/;"	f	typeref:typename:void
+allocate_memory_and_initialize	best_improv.cpp	/^void allocate_memory_and_initialize(type_vector & p, long n, type_matrix &$/;"	f	typeref:typename:void
+apply_move	best_improv.cpp	/^void apply_move(type_vector & p,long n, type_matrix & delta, long &$/;"	f	typeref:typename:void
+average_pairwise_distance	features_extractor.cpp	/^double average_pairwise_distance(std::vector<type_point> points)$/;"	f	typeref:typename:double
+avg_descent	features_extractor.cpp	/^	double avg_descent; \/\/ divided by instance size$/;"	m	struct:features_struct	typeref:typename:double	file:
+avg_distance_to_best	features_extractor.cpp	/^	double avg_distance_to_best; \/\/ divided by instance size$/;"	m	struct:features_struct	typeref:typename:double	file:
+base	common.hpp	/^	type_base_sample base;$/;"	m	struct:sampling_result	typeref:typename:type_base_sample
+base_cost	negative_slope_coefficient.hpp	/^	long base_cost;$/;"	m	struct:fitness_cloud_point_struct	typeref:typename:long
+base_dispersion_metric	features_extractor.cpp	/^	double base_dispersion_metric;$/;"	m	struct:features_struct	typeref:typename:double	file:
+base_info	common.hpp	/^typedef struct base_info {$/;"	s
+base_map	common.hpp	/^	type_base_map base_map;$/;"	m	struct:base_sampling_result	typeref:typename:type_base_map
+base_sampling_result	common.hpp	/^typedef struct base_sampling_result {$/;"	s
+base_vector	common.hpp	/^	std::vector<type_point> base_vector;$/;"	m	struct:base_sampling_result	typeref:typename:std::vector<type_point>
+basin_size	common.hpp	/^	int basin_size;$/;"	m	struct:optimum_info	typeref:typename:int
+best_cost	common.hpp	/^	long best_cost = infinite;$/;"	m	struct:local_search_result	typeref:typename:long
+best_improvement_ls	best_improv.cpp	/^int best_improvement_ls(type_vector &solution, long &cost, type_matrix delta,$/;"	f	typeref:typename:int
+best_improvement_move	best_improv.cpp	/^bool best_improvement_move(type_vector &p, long n, type_matrix & delta, long &$/;"	f	typeref:typename:bool
+best_neighbor_cost	common.hpp	/^	long best_neighbor_cost;$/;"	m	struct:base_info	typeref:typename:long
+best_opt_set	common.hpp	/^	type_solution_set best_opt_set;$/;"	m	struct:ils_result_struct	typeref:typename:type_solution_set
+best_opt_set	common.hpp	/^	type_solution_set best_opt_set;$/;"	m	struct:local_search_result	typeref:typename:type_solution_set
+compare_cloud_points	negative_slope_coefficient.cpp	/^bool compare_cloud_points(const type_fitness_cloud &p1, const type_fitness_cloud &p2)$/;"	f	typeref:typename:bool
+compare_points	features_extractor.cpp	/^bool compare_points(const type_point &p1, const type_point &p2)$/;"	f	typeref:typename:bool
+compute_aep	acumulated_escape_probability.cpp	/^double compute_aep(std::vector<type_point> sample, type_base_map info_map,$/;"	f	typeref:typename:double
+compute_avg_best_basin	features_extractor.cpp	/^double compute_avg_best_basin(type_ls_sample ls_sample)$/;"	f	typeref:typename:double
+compute_cost	features_extractor.cpp	/^long compute_cost(type_vector p, int n, type_matrix a, type_matrix b)$/;"	f	typeref:typename:long
+compute_cost	metropolis_hastings.cpp	/^void compute_cost(type_point &point, type_base_info &info, type_matrix delta,$/;"	f	typeref:typename:void
+compute_delta	common.cpp	/^long compute_delta(int n, type_matrix & a, type_matrix & b,$/;"	f	typeref:typename:long
+compute_delta_part	common.cpp	/^long compute_delta_part(type_matrix & a, type_matrix & b,$/;"	f	typeref:typename:long
+compute_dm	features_extractor.cpp	/^type_dispersions compute_dm(std::vector<type_point> points, float threshold_level)$/;"	f	typeref:typename:type_dispersions
+compute_fdc	fitness_distance_correlation.cpp	/^double compute_fdc(type_fd &fd_stats)$/;"	f	typeref:typename:double
+compute_features	features_extractor.cpp	/^type_features compute_features(type_sampling sample, int n)$/;"	f	typeref:typename:type_features
+compute_nsc	negative_slope_coefficient.cpp	/^double compute_nsc(type_base_map base_map)$/;"	f	typeref:typename:double
+copy_matrix	best_improv.cpp	/^type_matrix copy_matrix(type_matrix original, int n)$/;"	f	typeref:typename:type_matrix
+cost	common.hpp	/^	long cost;$/;"	m	struct:point	typeref:typename:long
+costs	fitness_distance_correlation.hpp	/^	type_stats costs;$/;"	m	struct:fd_struct	typeref:typename:type_stats
+count	acumulated_escape_probability.hpp	/^	int count;$/;"	m	struct:fitness_prob_cloud_point_struct	typeref:typename:int
+crop_sample	features_extractor.cpp	/^type_sampling crop_sample(type_sampling full_sample, int new_size, int n,$/;"	f	typeref:typename:type_sampling
+descent_count	common.hpp	/^	int descent_count;$/;"	m	struct:base_info	typeref:typename:int
+descent_stats	features_extractor.cpp	/^type_stats descent_stats(type_base_map base_map)$/;"	f	typeref:typename:type_stats
+dispersions	features_extractor.cpp	/^typedef struct dispersions {$/;"	s	file:
+dists	fitness_distance_correlation.hpp	/^	type_stats dists;$/;"	m	struct:fd_struct	typeref:typename:type_stats
+elite	features_extractor.cpp	/^	double elite;$/;"	m	struct:dispersions	typeref:typename:double	file:
+fd_struct	fitness_distance_correlation.hpp	/^typedef struct fd_struct {$/;"	s
+features_struct	features_extractor.cpp	/^typedef struct features_struct {$/;"	s	file:
+fitness_cloud_point_struct	negative_slope_coefficient.hpp	/^typedef struct fitness_cloud_point_struct {$/;"	s
+fitness_distance_correlation	features_extractor.cpp	/^	double fitness_distance_correlation;$/;"	m	struct:features_struct	typeref:typename:double	file:
+fitness_distance_measures	fitness_distance_correlation.cpp	/^type_fd fitness_distance_measures(std::vector<type_point> points_vec,$/;"	f	typeref:typename:type_fd
+fitness_prob_cloud_point_struct	acumulated_escape_probability.hpp	/^typedef struct fitness_prob_cloud_point_struct {$/;"	s
+generate_random_solution	metropolis_hastings.cpp	/^void generate_random_solution(type_point &point, type_base_info &info,$/;"	f	typeref:typename:void
+get_fitness_cloud	negative_slope_coefficient.cpp	/^std::vector<type_fitness_cloud> get_fitness_cloud(type_base_map base_map)$/;"	f	typeref:typename:std::vector<type_fitness_cloud>
+hamming_distance	common.cpp	/^int hamming_distance(type_point point1, type_point point2)$/;"	f	typeref:typename:int
+ils_result_struct	common.hpp	/^typedef struct ils_result_struct {$/;"	s
+improv_neighbors_count	common.hpp	/^	long improv_neighbors_count;$/;"	m	struct:base_info	typeref:typename:long
+infinite	common.hpp	/^const long infinite = 99999999999;$/;"	v	typeref:typename:const long
+inpute_filename	metropolis_hastings.cpp	/^char *inpute_filename = NULL;$/;"	v	typeref:typename:char *
+is_fitness_present	acumulated_escape_probability.cpp	/^bool is_fitness_present(std::map<long, type_fitness_prob_cloud> fit_cloud, long fitness)$/;"	f	typeref:typename:bool
+is_solution_present	common.cpp	/^bool is_solution_present(type_base_map base_map, type_point point)$/;"	f	typeref:typename:bool
+is_solution_present	common.cpp	/^bool is_solution_present(type_opt_map opt_map, type_point point)$/;"	f	typeref:typename:bool
+is_solution_present	common.cpp	/^bool is_solution_present(type_solution_set solution_set, type_point point)$/;"	f	typeref:typename:bool
+load_problem	features_extractor.cpp	/^int load_problem(char* instance_filename, int &n, type_matrix &a, type_matrix &b)$/;"	f	typeref:typename:int
+load_problem	metropolis_hastings.cpp	/^int load_problem(int &n, type_matrix &a, type_matrix &b)$/;"	f	typeref:typename:int
+local_opt	common.hpp	/^	type_vector local_opt;$/;"	m	struct:base_info	typeref:typename:type_vector
+local_search_result	common.hpp	/^typedef struct local_search_result {$/;"	s
+local_search_sampling	metropolis_hastings.cpp	/^void local_search_sampling(type_point base_point, type_base_info &base_info,$/;"	f	typeref:typename:void
+main	features_extractor.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	metropolis_hastings.cpp	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+mean	common.hpp	/^	double mean = 0.0;$/;"	m	struct:stats_struct	typeref:typename:double
+metropolis_hastings_sampling	metropolis_hastings.cpp	/^type_sampling metropolis_hastings_sampling(int sample_size, type_matrix a,$/;"	f	typeref:typename:type_sampling
+n_best_optima	features_extractor.cpp	/^	int n_best_optima;$/;"	m	struct:features_struct	typeref:typename:int	file:
+n_local_optima	features_extractor.cpp	/^	int n_local_optima;$/;"	m	struct:features_struct	typeref:typename:int	file:
+neighbor_cost	negative_slope_coefficient.hpp	/^	long neighbor_cost;$/;"	m	struct:fitness_cloud_point_struct	typeref:typename:long
+operator ()	common.hpp	/^	std::size_t operator()(const type_point& point) const {$/;"	f	struct:point_hasher	typeref:typename:std::size_t
+operator ==	common.hpp	/^	bool operator==(const point &other) const$/;"	f	struct:point	typeref:typename:bool
+opt	common.hpp	/^	type_ls_sample opt;$/;"	m	struct:sampling_result	typeref:typename:type_ls_sample
+opt_dispersion_metric	features_extractor.cpp	/^	double opt_dispersion_metric;$/;"	m	struct:features_struct	typeref:typename:double	file:
+opt_fitness_var_coef	features_extractor.cpp	/^	double opt_fitness_var_coef;$/;"	m	struct:features_struct	typeref:typename:double	file:
+opt_map	common.hpp	/^	type_opt_map opt_map;$/;"	m	struct:local_search_result	typeref:typename:type_opt_map
+opt_vector	common.hpp	/^	std::vector<type_point> opt_vector;$/;"	m	struct:ils_result_struct	typeref:typename:std::vector<type_point>
+opt_vector	common.hpp	/^	std::vector<type_point> opt_vector;$/;"	m	struct:local_search_result	typeref:typename:std::vector<type_point>
+optimum_info	common.hpp	/^typedef struct optimum_info {$/;"	s
+output_filename	metropolis_hastings.cpp	/^char *output_filename = NULL;$/;"	v	typeref:typename:char *
+point	common.hpp	/^typedef struct point {$/;"	s
+point_hasher	common.hpp	/^struct point_hasher {$/;"	s
+print_base_point	printer.cpp	/^void print_base_point(type_point point, type_base_map base_map, int n)$/;"	f	typeref:typename:void
+print_best_set	printer.cpp	/^void print_best_set(type_ls_sample ls_sample)$/;"	f	typeref:typename:void
+print_features	features_extractor.cpp	/^void print_features(type_features ft)$/;"	f	typeref:typename:void
+print_matrix	printer.cpp	/^void print_matrix(type_matrix p, int n)$/;"	f	typeref:typename:void
+print_opt_point	printer.cpp	/^void print_opt_point(type_point point, type_opt_map opt_map)$/;"	f	typeref:typename:void
+print_vector	printer.cpp	/^void print_vector(type_vector p)$/;"	f	typeref:typename:void
+rand01	metropolis_hastings.cpp	/^double rand01()$/;"	f	typeref:typename:double
+randint	metropolis_hastings.cpp	/^int randint(int min, int max)$/;"	f	typeref:typename:int
+random	features_extractor.cpp	/^	double random;$/;"	m	struct:dispersions	typeref:typename:double	file:
+rd	metropolis_hastings.cpp	/^std::random_device rd; \/\/ obtain a random number from hardware$/;"	v	typeref:typename:std::random_device
+read_base_point	reader.cpp	/^void read_base_point(type_point &point, type_base_map &point_map, FILE$/;"	f	typeref:typename:void
+read_base_sample	reader.cpp	/^void read_base_sample(type_base_sample &base_sample, FILE* in_file, int n)$/;"	f	typeref:typename:void
+read_best_set	reader.cpp	/^void read_best_set(type_solution_set &best_set, FILE *in_file, int n)$/;"	f	typeref:typename:void
+read_ls_sample	reader.cpp	/^void read_ls_sample(type_ls_sample &ls_sample, FILE* in_file, int n)$/;"	f	typeref:typename:void
+read_opt_point	reader.cpp	/^void read_opt_point(type_point &point, type_opt_map &point_map, FILE *in_file,$/;"	f	typeref:typename:void
+read_parameters	metropolis_hastings.cpp	/^void read_parameters(int argc, char **argv)$/;"	f	typeref:typename:void
+read_results	reader.cpp	/^type_sampling read_results(int &n, char* file_name)$/;"	f	typeref:typename:type_sampling
+sample_size	metropolis_hastings.cpp	/^int sample_size = 5000;$/;"	v	typeref:typename:int
+sampling_result	common.hpp	/^typedef struct sampling_result {$/;"	s
+set_mean_std	common.cpp	/^void set_mean_std(type_stats &stats)$/;"	f	typeref:typename:void
+size_driven_bisection	negative_slope_coefficient.cpp	/^void size_driven_bisection(std::vector<type_fitness_cloud> points, int$/;"	f	typeref:typename:void
+solution	common.hpp	/^	type_vector solution;$/;"	m	struct:point	typeref:typename:type_vector
+stats_struct	common.hpp	/^typedef struct stats_struct {$/;"	s
+std_dev	common.hpp	/^	double std_dev = 0.0;$/;"	m	struct:stats_struct	typeref:typename:double
+sum	acumulated_escape_probability.hpp	/^	double sum;$/;"	m	struct:fitness_prob_cloud_point_struct	typeref:typename:double
+sum	common.hpp	/^	long sum = 0;$/;"	m	struct:stats_struct	typeref:typename:long
+transpose	common.cpp	/^void transpose(int &a, int &b) {long temp = a; a = b; b = temp;}$/;"	f	typeref:typename:void
+type_base_info	common.hpp	/^} type_base_info;$/;"	t	typeref:struct:base_info
+type_base_map	common.hpp	/^typedef std::unordered_map<type_point, type_base_info, point_hasher> type_base_map;$/;"	v	typeref:struct:point_hasher typedef std::unordered_map<type_point,type_base_info,point_hasher>
+type_base_sample	common.hpp	/^} type_base_sample;$/;"	t	typeref:struct:base_sampling_result
+type_dispersions	features_extractor.cpp	/^} type_dispersions;$/;"	t	typeref:struct:dispersions	file:
+type_fd	fitness_distance_correlation.hpp	/^} type_fd;$/;"	t	typeref:struct:fd_struct
+type_features	features_extractor.cpp	/^} type_features;$/;"	t	typeref:struct:features_struct	file:
+type_fitness_cloud	negative_slope_coefficient.hpp	/^} type_fitness_cloud;$/;"	t	typeref:struct:fitness_cloud_point_struct
+type_fitness_prob_cloud	acumulated_escape_probability.hpp	/^} type_fitness_prob_cloud;$/;"	t	typeref:struct:fitness_prob_cloud_point_struct
+type_ils_result	common.hpp	/^} type_ils_result;$/;"	t	typeref:struct:ils_result_struct
+type_ls_sample	common.hpp	/^} type_ls_sample;$/;"	t	typeref:struct:local_search_result
+type_matrix	common.hpp	/^typedef long** type_matrix;$/;"	t	typeref:typename:long **
+type_opt_info	common.hpp	/^} type_opt_info;$/;"	t	typeref:struct:optimum_info
+type_opt_map	common.hpp	/^typedef std::unordered_map<type_point, type_opt_info, point_hasher> type_opt_map;$/;"	t	typeref:typename:std::unordered_map<type_point,type_opt_info,point_hasher>
+type_point	common.hpp	/^} type_point;$/;"	t	typeref:struct:point
+type_sampling	common.hpp	/^} type_sampling;$/;"	t	typeref:struct:sampling_result
+type_solution_set	common.hpp	/^typedef std::unordered_set<type_point, point_hasher> type_solution_set;$/;"	t	typeref:typename:std::unordered_set<type_point,point_hasher>
+type_stats	common.hpp	/^} type_stats;$/;"	t	typeref:struct:stats_struct
+type_vector	common.hpp	/^typedef std::vector<int> type_vector;$/;"	t	typeref:typename:std::vector<int>
+update_matrix_of_move_cost	best_improv.cpp	/^void update_matrix_of_move_cost(int i_retained, int j_retained,long n, type_matrix & delta, type/;"	f	typeref:typename:void
+values	common.hpp	/^	std::vector<long> values;$/;"	m	struct:stats_struct	typeref:typename:std::vector<long>
+write_base_point	writer.cpp	/^void write_base_point(type_point point, type_base_info point_info, FILE$/;"	f	typeref:typename:void
+write_base_sample	writer.cpp	/^void write_base_sample(type_base_sample base_sample, FILE* out_file)$/;"	f	typeref:typename:void
+write_best_set	writer.cpp	/^void write_best_set(type_solution_set best_set, FILE *out_file)$/;"	f	typeref:typename:void
+write_ls_sample	writer.cpp	/^void write_ls_sample(type_ls_sample ls_sample, FILE* out_file)$/;"	f	typeref:typename:void
+write_opt_point	writer.cpp	/^void write_opt_point(type_point point, type_opt_info point_info, FILE *out_file)$/;"	f	typeref:typename:void
+write_results	writer.cpp	/^void write_results(type_sampling sample, int n, char* file_name)$/;"	f	typeref:typename:void
+write_vector	writer.cpp	/^void write_vector(type_vector vec, FILE *out_file)$/;"	f	typeref:typename:void
